@@ -24,7 +24,7 @@ img {
 }
 
 .artworkBG{
-	background:rgba(244,252,238,0.75);
+	background:#fff;
 	border-radius:0.4em 0.4em 0 0;
 	position:relative;
 	z-index:-2;
@@ -61,7 +61,7 @@ img {
 
 .credit{
    text-align:center;
-   background:#fff;
+   background:rgba(255,255,255,0.75);
    border-radius:0 0 .4em .4em;
 }
 
