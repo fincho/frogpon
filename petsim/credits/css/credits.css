@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@700&family=VT323&display=swap');
+
+html {
+  background:url('/credits/img/bg.png') fixed;
+  font-family: 'VT323', monospace;
+  font-size:2em;
+  color:#303054;
+}
+
+#container{
+width:100%;
+margin:0 auto;
+padding:0;
+display:flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+   box-shadow:2px 2px 1px rgba(0,0,0,0.2);
+}
+
+.showcase{
+   margin:1em;
+   padding-bottom:1em;
+   width:100%;
+   max-width:33%;
+   text-align:center;
+}
+
+@media (max-width:800px) {
+	.showcase{
+		max-width:66%;
+	}
+}
+
+@media (max-width:400px) {
+	.showcase{
+		max-width:100%;
+	}
+}
+
+.artwork{
+   width:100%;
+   max-width:200px;
+   margin:auto;
+   position:relative;
+   z-index:-1;
+}
+
+.credit{
+   text-align:center;
+}
+
+a {
+   text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}}
