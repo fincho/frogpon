@@ -61,6 +61,8 @@ img {
 
 .credit{
    text-align:center;
+   background:#fff;
+   border-radius:0 0 .4em .4em;
 }
 
 a {
